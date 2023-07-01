@@ -120,6 +120,7 @@
   .loading {
     animation: slideIn 0.6s ease-in-out;
     animation-duration: 1.5s;
+    animation-iteration-count: 1
   }
 
 
