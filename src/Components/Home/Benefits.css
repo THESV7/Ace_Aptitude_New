@@ -1,0 +1,81 @@
+.Benefits_main{
+    background: rgb(247 248 252);
+}
+
+.Benefits_container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.Benefits_heading{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    text-align: center;
+}
+
+.pre_heading{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: rgb(102 116 204);
+    margin-bottom: 10px;
+}
+
+.post_heading{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(1 18 41);
+    margin: 0px 352px;
+}
+
+.Container_grid{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    justify-content: center;
+    margin: 0px 43px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    column-gap: 1.5rem;
+    row-gap: 4rem;
+}
+
+.bg_img{
+    position: absolute;
+}
+
+
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .post_heading{
+        margin: 0px 125px;
+    }
+    .Container_grid{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+    .post_heading{
+        margin: 0px;
+    }
+    .Container_grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        justify-items: center;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
+    .post_heading{
+        margin: 0px;
+    }
+    .Container_grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+}

@@ -1,0 +1,38 @@
+.filter_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.aptitude_heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.search_div{
+    width: 460px;
+}
+
+.searchbar {
+    width: 442px;
+    padding: 5px 10px;
+    height: 20px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.filter_input{
+    display: flex;
+    gap: 12px;
+}
+.filter_input input{
+    width: 150px;
+    height: 18px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    outline: none;
+}
+

@@ -1,0 +1,118 @@
+.PrepareFor_grid{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: grid;
+    max-width: 1300px;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    justify-items: end;
+    align-items: center;
+}
+
+.PrepareFor_Header{
+    text-align: start;
+    width: 90%;
+}
+
+.PrepareFor_title{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: start;
+    color: rgb(102 116 204);
+}
+
+.PrepareFor_content{
+    
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+
+}
+
+.PrepareFor_slogan{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: rgb(119 124 133);
+}
+
+.company_div{
+    display: grid;
+    position: relative;
+    z-index: 2;
+    justify-items: center;
+}
+
+.circle_1{
+    width: 24rem;
+    height: 24rem;
+    display: grid;
+    justify-items: center;
+    background: white;
+    align-items: center;
+    border-radius: 9999px;
+}
+
+.circle_2{
+    width: 18rem;
+    display: grid;
+    height: 18rem;
+    border-radius: 9999px;
+    background: rgb(241 228 255);
+    justify-items: center;
+    align-items: center;
+}
+
+.circle_3{
+    width: 10rem;
+    background: white;
+    height: 10rem;
+    border-radius: 9999px;
+}
+
+.crotate{
+    position: absolute;
+    z-index: 3;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .PrepareFor_grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        justify-items: center;
+        gap: 50px;
+    }
+    .circle_1{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+    .PrepareFor_grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        justify-items: center;
+    }
+    .circle_1{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
+    .PrepareFor_grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        justify-items: center;
+    }
+
+    .circle_1{
+        width: 20rem;
+        height: 20rem;
+    }
+}

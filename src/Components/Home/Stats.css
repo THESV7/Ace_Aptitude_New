@@ -1,0 +1,80 @@
+.Stats_section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.stats_main {
+    color: white;
+    background: rgb(102 116 204);
+}
+
+.stats_container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-items: center;
+}
+
+.stats_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: -webkit-fill-available;
+}
+
+.stats_heading {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+
+
+
+
+.right_border{
+border-right: 1px solid;
+}
+
+.left_border{
+border-left: 1px solid;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
+    .stats_container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        row-gap: 40px;
+        column-gap: 40px;
+        justify-items: center;
+    }
+
+    .stats_heading {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+
+    .right_border{
+        border:none
+    }
+
+    .left_border{
+        border: none;
+    }
+}
