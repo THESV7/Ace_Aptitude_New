@@ -18,10 +18,19 @@ const Aptitude_test_page = () => {
                     </div>
                     <div className="aptitude_container">
                             <div className="sideBar_container">
-
+                                <div className="category_container">
+                                    <h3 className='category_heading'>Category</h3>
+                                    <ul className='category_ul'>
+                                        <li className='category_li'>ALL</li>
+                                        <li className='category_li'>General Aptitude</li>
+                                        <li className='category_li'>Progaramming</li>
+                                        <li className='category_li'>Verbal</li>
+                                        <li className='category_li'>Logical Resoinging</li>
+                                    </ul>
+                                </div>
                             </div>
                             <div className="problem_container">
-                                
+                                <div className='problem_heading'></div>
                             </div>
                     </div>
                 </div>
