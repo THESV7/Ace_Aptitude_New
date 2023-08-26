@@ -18,7 +18,7 @@
 .searchbar {
     width: 442px;
     padding: 5px 10px;
-    height: 20px;
+    height: 30px;
     border-radius: 7px;
     outline: none;
     font-size: 1rem;
@@ -30,9 +30,42 @@
 }
 .filter_input input{
     width: 150px;
-    height: 18px;
+    height: 30px;
     padding: 5px 10px;
     border-radius: 7px;
     outline: none;
+}
+
+.aptitude_container{
+    display: grid;
+    grid-template-columns: 250px 830px;
+    gap: 50px;
+    height: 600px;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.category_container{
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.category_heading{
+    font-size: 1.2rem;
+}
+
+.category_ul{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.category_li{
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.problem_heading{
+    border-bottom: 1px solid;
 }
 
